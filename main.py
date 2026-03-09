@@ -117,7 +117,7 @@ def create_safe_windows():
             x = random.randrange(0, width - win_width)
             y = random.randrange(0, height - win_height)
 
-            window.title("亲爱的")
+            window.title("你的小猪")
             window.geometry(f"{win_width}x{win_height}+{x}+{y}")
 
             # 随机选择莫兰迪色系背景
